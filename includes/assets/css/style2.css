@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-color-nav {
+    background-color: #0A7EC2;
+}
+
+.bg-color-sidenav {
+    background-color: #00518C;
+}
+
+.bg-card{
+    background-color: #004840;
+}
+
+
+.text-color {
+    color: #fff;
+}
+
+.picture {
+    position: fixed;
+}
