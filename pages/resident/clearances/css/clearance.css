@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+  
+}
+  
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+  
+.page {
+  width: 21cm; /* Changed to A4 size */
+  min-height: 29.7cm; /* Changed to A4 size */
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #D3D3D3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .subpage {
+    padding: 1cm;
+    border: 5px red solid;
+    height: 256mm;
+    outline: 2cm #FFEAEA solid;
+}
+  
+@page {
+  size: A4; /* Changed to A4 size */
+  margin: 0;
+}
+  
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      
+    }
+}
+
+  .main {
+  width: 63%;
+  float: left;
+  padding: 15px;
+  border: 1px solid white;
+  right: -400px;
+  position: relative;
+  margin-top:100px;
+  text-align: justify;
+  text-indent: 50px;
+
+
+}
+  .title {
+    right: -200px;
+    position: relative;
+
+}
+
+  .topleft {
+    top: -20px;
+    left: -360px;
+    position: relative;
+}
+  
+  .topright {
+    top: -220px;
+    right: -360px;
+    position: relative;
+}
+  .border {
+  border-style: groove;
+  
+}
+  .intro {
+  text-align: justify;
+  text-indent: 50px;
+  margin-top: 80px;
+  font-size: 20px;
+  right: -400px;
+  position: relative;
+  margin-top:160px;
+  
+} 
+  #printpagebutton {
+    background-color: #0004ff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: -9px;
+}
+
+  .card {
+    top: -75px;
+    position: relative;
+}
+
+  

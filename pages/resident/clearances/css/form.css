@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  font: 12pt "Tahoma";
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.page {
+  width: 28cm;
+  min-height: 45cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #D3D3D3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+  padding: 1cm;
+  border: 5px red solid;
+  height: 256mm;
+  outline: 2cm #FFEAEA solid;
+}
+@page {
+  size: A4;
+  /* Changed to A4 size */
+  margin: 0;
+}
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+  }
+}
+.head {
+  text-align: justify;
+  text-indent: 50px;
+}
+.intro {
+  text-align: justify;
+  text-indent: 50px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+.intro2 {
+  text-align: justify;
+  text-indent: 50px;
+  margin-top: 80px;
+  font-size: 20px;
+  line-height: 2;
+}
+.pb {
+  margin-top: 29px;
+  margin-left: 600px;
+}
+.topleft {
+  top: -20px;
+  left: -360px;
+  position: relative;
+}
+.topright {
+  top: -248px;
+  right: -360px;
+  position: relative;
+}
+#printpagebutton {
+  background-color: #0004ff;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+}
